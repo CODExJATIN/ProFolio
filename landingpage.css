@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+    font-family: "Afacad Flux", sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 30px;
+    color: #4f46e5;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #2205fc;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+.mobile-menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    border-bottom: 1px solid #444;
+}
+
+.hamburger-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* Transform to make X when active */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(11px, 11px);
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0; /* Hide the middle bar */
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(4px, -4px);
+}
+
+
+
+.hero {
+    background-color: #4f46e5;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-description {
+    margin-top: 10px;
+    font-size: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta-button {
+    background-color: white;
+    color: #4f46e5;
+    padding: 12px 24px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+
+.about {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+
+.features {
+    padding: 60px 0;
+    background-color: #f5f5f5;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.faq-section {
+    background-color: #f9f9f9;
+    padding: 3rem 0;
+}
+
+.faq-items {
+    margin-top: 1.5rem;
+}
+
+.faq-item {
+    margin-bottom: 1.5rem;
+}
+
+.faq-question {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.faq-answer {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #555;
+}
+
+.team-section {
+    background-color: #f2f2f2;
+    padding: 3rem 0;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dev-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.team-member {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.member-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.member-id {
+    font-size: 1rem;
+    color: #777;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+}

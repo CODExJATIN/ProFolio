@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9; /* Light background */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    text-align: center;
+    color: #333; /* Darker text for contrast */
+    margin-bottom: 20px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if they exceed the row */
+    gap: 20px; /* Space between items */
+    justify-content: center; /* Center items */
+}
+
+.portfolio-item {
+    background-color: #e9f7fc; /* Light blue background for items */
+    border: 1px solid #bee1f4; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding for spacing */
+    width: 250px; /* Fixed width for portfolio items */
+    text-align: center; /* Centered text */
+    transition: transform 0.2s; /* Animation for hover effect */
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+h2 {
+    color: #007bff; /* Blue for portfolio titles */
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555; /* Gray color for text */
+    margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #007bff; /* Blue button */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 15px; /* Padding for buttons */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+    .portfolio-list {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center align items */
+    }
+    
+    .portfolio-item {
+        width: 90%; /* Full width for mobile */
+    }
+}

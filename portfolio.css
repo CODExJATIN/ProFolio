@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+body {
+  font-family: "Afacad Flux", sans-serif;
+  }
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  .container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: rgba(255, 255, 255, 0.7); 
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  .site-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .main-nav .nav-link {
+    margin-right: 15px;
+    font-size: 16px;
+    color: #555;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .main-nav .nav-link:hover {
+    color: #000;
+  }
+  
+  .header-right .social-link {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+
+  .header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .download-btn {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 1px solid black; /* Black border */
+    padding: 5px 10px; /* Smaller size */
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .social-icon {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 5px; 
+    background-color: #f1f1f1;
+    padding: 5px; 
+  }
+
+  .social-link{
+    text-decoration: none;
+    color: white;
+    vertical-align: top;
+  }
+  .section {
+    padding: 50px 0;
+    margin-top: 30px;
+    scroll-margin-top: 70px ;
+  }
+
+  .section:nth-child(odd){
+    background-color: #d6d5d5;
+  }
+
+  .about-section{
+    margin-top: 80px;
+    
+  }
+  
+  .section-title {
+    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .section-subtitle {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width:50%;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    min-height: 300px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .project-description {
+    margin: 10px 0;
+  }
+  
+  .project-technologies {
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  
+  .project-tech {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: #eee;
+    border-radius: 3px;
+  }
+  
+
+  .education-card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .education-school{
+    font-weight: bold;
+    color:#888888;
+    margin-bottom: 20px;
+  }
+
+  .education-list{
+    padding-top:10px;
+    padding-left: 20px;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .container-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contact-form .section-title{
+    text-align: left;
+  }
+
+
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input, .form-textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .form-textarea {
+    height: 100px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .footer-content {
+    font-size: 14px;
+  }
+
+
+  .hamburger {
+    display: none; /* Hidden on desktop */
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+  }
+  
+
+  #nav-menu {
+    display: flex;
+  }
+
+  .mobile-sction{
+    display: none;
+  }
+
+  .mobile-header {
+    display: none; /* Hidden on desktop */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hamburger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+  }
+  
+  /* Mobile Menu */
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hidden by default */
+    width: 70%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9); 
+    backdrop-filter: blur(20px); 
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+  }
+  
+  .mobile-nav {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .mobile-nav a, .mobile-nav button {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+  }
+  
+
+  .close-menu{
+
+    color:white;
+    background-color: #b9b9b9;
+    
+    border:1px solid black;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+
+    .projects-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .main-nav {
+      margin-top: 10px;
+    }
+
+    .mobile-sction{
+        display: block;
+    }
+  
+    .header-left, .header-right {
+        display: none;
+      }
+    
+      .mobile-header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .mobile-header .site-title{
+        font-size: larger;
+      }
+  
+    .download-btn {
+      display: none;
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+
+        .main-nav {
+          display: none;
+        }
+      
+      
+        .hamburger {
+          display: flex;
+        }
+      
+        
+        
+      
+        
+      
+        .nav-link {
+          margin: 10px 0;
+        }
+    .project-card{
+      width: 80vw;
+    }
+
+    
+
+    .section-description{
+      width: 100%;;
+    }
+
+    .education-card{
+      width: 80vw;
+    }
+  }
+
+  .mobile-menu.open {
+    right: 0; /* Slide in */
+    position: fixed;
+    height: 100vh;
+  }

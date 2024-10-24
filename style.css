@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .space-y-8 > * + * {
+    margin-top: 2rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    margin-bottom: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .input, .textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 4px;
+  }
+  
+  .textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .button {
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  
+  
+  .button:hover {
+    background-color: #474747;
+  }
+  
+  .button .plus-icon {
+    font-size: 1.2rem;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .gap-2 {
+    gap: 8px;
+  }
+  
+  .space-x-2 > * + * {
+    margin-left: 8px;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .bg-purple-100 {
+    background-color: #f3e8ff;
+  }
+  
+  .text-purple-800 {
+    color: #4c1d95;
+  }
+  
+  .bg-pink-100 {
+    background-color: #fce7f3;
+  }
+  
+  .text-pink-800 {
+    color: #9d174d;
+  }
+  
+  .bg-blue-100 {
+    background-color: #dbeafe;
+  }
+  
+  .text-blue-800 {
+    color: #1e3a8a;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+
+  .remove-btn{
+    font-size: small;
+    background-color: #9d174d;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .skill-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    padding:10px;
+  }
+
+ 
+  
