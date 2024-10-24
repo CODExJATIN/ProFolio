@@ -28,7 +28,25 @@ A simple and intuitive platform to create, customize, and share your professiona
 - **Database**: MySQL
 
 ---
+### **Screenshots**
 
+1. **Landing Page**
+   ![Landing Page](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791758/xerrlvykoqij0at1h2cn.png)
+
+2. **Portfolio Creation Form**
+   ![Portfolio Creation Form](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791759/ltyt9qu2qa95lmttppgb.png)
+   ![Portfolio Creation Form](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791759/qtfaogrf81whlmbpgkdm.png)
+   ![Portfolio Creation Form](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791759/pjd4nbydxjbjuwcuflaa.png)
+
+4. **Portfolio Page**
+   ![Portfolio Page](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791758/zepryjr1xexvn2pyyeu8.png)
+   ![Portfolio Page](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791758/hqrhlitlfifbyk3hpfc6.png)
+   ![Portfolio Page](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791758/c44phg6n4tkb2zemyqi9.png)
+   ![Portfolio Page](https://res.cloudinary.com/dxf92dn9s/image/upload/v1729791758/vciucb8wtlziwmhn24dr.png)
+
+
+
+---
 
 ## **🚀 Getting Started**
 
