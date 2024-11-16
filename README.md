@@ -1,5 +1,7 @@
 # **ProFolio**
 
+<img src="https://i.ibb.co/jLdJDkr/173-1x-shots-so.png" alt="173-1x-shots-so" border="0">
+
 A simple and intuitive platform to create, customize, and share your professional portfolio. This project allows users to build their own online portfolios, featuring easy-to-use forms, templates, and a user-friendly dashboard.
 
 ---
